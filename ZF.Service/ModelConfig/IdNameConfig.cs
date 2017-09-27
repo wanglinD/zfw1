@@ -13,6 +13,8 @@ namespace ZF.Service.ModelConfig
         public IdNameConfig()
         {
             ToTable("T_IdNames");
+
+
         }
     }
 }
