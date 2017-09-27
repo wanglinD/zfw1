@@ -1,0 +1,10 @@
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\ZF.Service.dll.config
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\ZF.Service.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\ZF.Service.pdb
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\EntityFramework.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\EntityFramework.xml
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\obj\Debug\ZF.Service.csprojResolveAssemblyReference.cache
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\obj\Debug\ZF.Service.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Service\obj\Debug\ZF.Service.pdb
