@@ -1,5 +1,0 @@
-C:\Users\wl144\Desktop\project\ZF\testdb\bin\Debug\testdb.exe.config
-C:\Users\wl144\Desktop\project\ZF\testdb\bin\Debug\testdb.exe
-C:\Users\wl144\Desktop\project\ZF\testdb\bin\Debug\testdb.pdb
-C:\Users\wl144\Desktop\project\ZF\testdb\obj\Debug\testdb.exe
-C:\Users\wl144\Desktop\project\ZF\testdb\obj\Debug\testdb.pdb
