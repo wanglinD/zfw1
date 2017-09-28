@@ -71,6 +71,11 @@
     <Compile Include="ModelConfig\HouseConfig.cs" />
     <Compile Include="ModelConfig\HousepicConfig.cs" />
     <Compile Include="ModelConfig\IdNameConfig.cs" />
+    <Compile Include="ModelConfig\PermissionConfig.cs" />
+    <Compile Include="ModelConfig\RegionConfig.cs" />
+    <Compile Include="ModelConfig\RoleConfig.cs" />
+    <Compile Include="ModelConfig\SettingConfig.cs" />
+    <Compile Include="ModelConfig\UserConfig.cs" />
     <Compile Include="MyDbContext.cs" />
     <Compile Include="Entities\RegionEntity.cs" />
     <Compile Include="Entities\SettingEntity.cs" />

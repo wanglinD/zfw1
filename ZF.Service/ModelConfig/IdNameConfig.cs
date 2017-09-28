@@ -13,7 +13,8 @@ namespace ZF.Service.ModelConfig
         public IdNameConfig()
         {
             ToTable("T_IdNames");
-
+            Property(p => p.Name).IsRequired().HasMaxLength(1024);
+            Property(p => p.TypeName).IsRequired().HasMaxLength(1024);
 
         }
     }

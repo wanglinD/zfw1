@@ -10,8 +10,9 @@ namespace ZF.Service.Entities
 {
    public class MyDbContext:DbContext
     {
-        public MyDbContext():base("name=conn1")
+        public MyDbContext():base("name=connstr")
         {
+            //Database.SetInitializer<MyDbContext>(null);
 
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
