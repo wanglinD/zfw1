@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class AttachmentDTO
+    public class AttachmentDTO:BaseDTO
     {
+        public string Name { get; set; }
+        public string IconName { get; set;}
+
     }
 }

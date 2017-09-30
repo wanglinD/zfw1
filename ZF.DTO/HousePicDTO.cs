@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class HousePicDTO
+    public class HousePicDTO:BaseDTO
     {
+        public long HouseId { get; set; }
+        public string Url { get; set; }
+        public string ThumbUrl { get; set;}
+
     }
 }

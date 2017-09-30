@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class RoleDTO
+    public class RoleDTO:BaseDTO
     {
+        public string Name { get; set; }
+        
     }
 }

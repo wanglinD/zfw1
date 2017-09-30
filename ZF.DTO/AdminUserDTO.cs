@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class AdminUserDTO
+   public class AdminUserDTO:BaseDTO
     {
+        public string Name { get; set; }
+        public string PhoneNum { get; set;}
+        public string PasswordHash { get; set;}
+        public string PasswordSalt { get; set; }
+        public string Email { get; set; }
+        public long CityId { get; set; }
+        public int LoginErrorTimes { get; set; }
+        public DateTime LastLoginErrorDateTime{ get; set; }
+        
     }
 }

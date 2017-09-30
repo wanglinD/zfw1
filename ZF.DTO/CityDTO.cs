@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class CityDTO
+     public class CityDTO:BaseDTO
     {
+        public string Name { get; set; }
+        
     }
 }

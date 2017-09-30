@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class PermissionDTO
+    public class PermissionDTO:BaseDTO
     {
+        public string Description { get; set; }
+        public string Name { get; set; }
+        
     }
 }

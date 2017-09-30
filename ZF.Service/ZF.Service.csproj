@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogService.cs" />
     <Compile Include="Entities\AdminLogEntity.cs" />
     <Compile Include="Entities\AdminUserEntity.cs" />
     <Compile Include="Entities\AttachmentEntity.cs" />
@@ -85,7 +86,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ZF.IService\ZF.IService.csproj">
+      <Project>{48829156-CDA7-420C-8353-FBC278D5E40E}</Project>
+      <Name>ZF.IService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

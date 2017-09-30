@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ZF.DTO
 {
-    class BaseDTO
+    //建一个用于被继承的抽像类，继承了这个抽象类的子类都共同拥有这连个属性
+    public abstract class BaseDTO
     {
+        public long Id { get; set; }
+        public DateTime CreateDateTime { get; set; }
+
     }
 }
