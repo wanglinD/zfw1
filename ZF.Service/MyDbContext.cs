@@ -12,7 +12,8 @@ namespace ZF.Service.Entities
     {
         public MyDbContext():base("name=connstr")
         {
-            //Database.SetInitializer<MyDbContext>(null);
+            //禁用自动创建表
+            Database.SetInitializer<MyDbContext>(null);
 
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
