@@ -1,0 +1,5 @@
+C:\Users\wl144\Desktop\project\ZF\ZF.Common\bin\Debug\ZF.Common.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Common\bin\Debug\ZF.Common.pdb
+C:\Users\wl144\Desktop\project\ZF\ZF.Common\obj\Debug\ZF.Common.csprojResolveAssemblyReference.cache
+C:\Users\wl144\Desktop\project\ZF\ZF.Common\obj\Debug\ZF.Common.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.Common\obj\Debug\ZF.Common.pdb

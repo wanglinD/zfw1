@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.Common", "ZF.Common\ZF.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.DTO", "ZF.DTO\ZF.DTO.csproj", "{18B2B451-DB62-4640-BCBA-1053ABEB8262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.AdminWeb", "ZF.AdminWeb\ZF.AdminWeb.csproj", "{75529766-03A7-4CEB-B66B-71B35F990BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{18B2B451-DB62-4640-BCBA-1053ABEB8262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18B2B451-DB62-4640-BCBA-1053ABEB8262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18B2B451-DB62-4640-BCBA-1053ABEB8262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75529766-03A7-4CEB-B66B-71B35F990BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75529766-03A7-4CEB-B66B-71B35F990BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75529766-03A7-4CEB-B66B-71B35F990BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75529766-03A7-4CEB-B66B-71B35F990BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

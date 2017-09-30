@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ZF.Common\ZF.Common.csproj">
+      <Project>{FE7C9BEE-3BA1-4D7B-8BA1-F9153F21DC0E}</Project>
+      <Name>ZF.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZF.Service\ZF.Service.csproj">
       <Project>{FC4DAD0E-6325-43B7-8E78-CE7BF20FA3AE}</Project>
       <Name>ZF.Service</Name>
