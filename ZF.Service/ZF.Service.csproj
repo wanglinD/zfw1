@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminLogService.cs" />
+    <Compile Include="AdminUserService.cs" />
+    <Compile Include="BaseService.cs" />
     <Compile Include="Entities\AdminLogEntity.cs" />
     <Compile Include="Entities\AdminUserEntity.cs" />
     <Compile Include="Entities\AttachmentEntity.cs" />
@@ -87,6 +89,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ZF.Common\ZF.Common.csproj">
+      <Project>{fe7c9bee-3ba1-4d7b-8ba1-f9153f21dc0e}</Project>
+      <Name>ZF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZF.DTO\ZF.DTO.csproj">
+      <Project>{18b2b451-db62-4640-bcba-1053abeb8262}</Project>
+      <Name>ZF.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZF.IService\ZF.IService.csproj">
       <Project>{48829156-CDA7-420C-8353-FBC278D5E40E}</Project>
       <Name>ZF.IService</Name>

@@ -1,0 +1,5 @@
+C:\Users\wl144\Desktop\project\ZF\ZF.DTO\bin\Debug\ZF.DTO.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.DTO\bin\Debug\ZF.DTO.pdb
+C:\Users\wl144\Desktop\project\ZF\ZF.DTO\obj\Debug\ZF.DTO.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.DTO\obj\Debug\ZF.DTO.pdb
+C:\Users\wl144\Desktop\project\ZF\ZF.DTO\obj\Debug\ZF.DTO.csprojResolveAssemblyReference.cache
