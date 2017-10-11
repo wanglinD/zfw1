@@ -41,8 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAdminLogService.cs" />
+    <Compile Include="IAdminUserService.cs" />
     <Compile Include="IServiceSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZF.DTO\ZF.DTO.csproj">
+      <Project>{18B2B451-DB62-4640-BCBA-1053ABEB8262}</Project>
+      <Name>ZF.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

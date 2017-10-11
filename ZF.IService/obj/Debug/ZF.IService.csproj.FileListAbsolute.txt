@@ -1,5 +1,7 @@
 C:\Users\wl144\Desktop\project\ZF\ZF.IService\bin\Debug\ZF.IService.dll
 C:\Users\wl144\Desktop\project\ZF\ZF.IService\bin\Debug\ZF.IService.pdb
+C:\Users\wl144\Desktop\project\ZF\ZF.IService\bin\Debug\ZF.DTO.dll
+C:\Users\wl144\Desktop\project\ZF\ZF.IService\bin\Debug\ZF.DTO.pdb
 C:\Users\wl144\Desktop\project\ZF\ZF.IService\obj\Debug\ZF.IService.csprojResolveAssemblyReference.cache
 C:\Users\wl144\Desktop\project\ZF\ZF.IService\obj\Debug\ZF.IService.dll
 C:\Users\wl144\Desktop\project\ZF\ZF.IService\obj\Debug\ZF.IService.pdb
