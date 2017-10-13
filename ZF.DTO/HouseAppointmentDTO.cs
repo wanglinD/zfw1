@@ -11,12 +11,15 @@ namespace ZF.DTO
         public string Name { get; set; }
         public string PhoneNum { get; set; }
         public DateTime VisitDate { get; set;}
-        public long UserId { get; set;}
+        public long? UserId { get; set;}
         public long HouseId { get; set; }
         public string Status { get; set; }
-        public long FollowAdminUserId { get; set; }
-        public DateTime FollowDateTime { get; set; }
+        public long? FollowAdminUserId { get; set; }
+        public DateTime? FollowDateTime { get; set; }
         public byte[] RowVersion { get; set; }
-        
+        public string FollowAdminUserName { get; set; }
+        public string RegionName { get; set; }
+        public string CommunityName { get; set; }
+        public string HouseAddress { get; set; }
     }
 }

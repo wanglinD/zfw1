@@ -12,8 +12,8 @@ namespace ZF.DTO
 
         public string Name { get; set; }
         public string PhoneNum { get; set;}
-        public string PasswordHash { get; set;}
-        public string PasswordSalt { get; set; }
+      //  public string PasswordHash { get; set;}
+      //  public string PasswordSalt { get; set; }
         public string Email { get; set; }
         public long? CityId { get; set; }
         public int LoginErrorTimes { get; set; }

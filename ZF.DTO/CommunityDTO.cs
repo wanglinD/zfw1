@@ -12,7 +12,7 @@ namespace ZF.DTO
         public long RegionId { get; set; }
         public string Location { get; set; }
         public string Traffic { get; set; }
-        public int BuiltYear { get; set; }
+        public int? BuiltYear { get; set; }
         
     }
 }

@@ -6,19 +6,21 @@ using System.Text;
 using System.Threading.Tasks;
 using ZF.DTO;
 using ZF.IService;
+using ZF.Service;
 using ZF.Service.Entities;
 
 namespace ZF.Service
 {
-    class AttachmentService : IAttachmentService
+    public class AttachmentService : IAttachmentService
     {
-        public AttachmentDTO ToDTO(AttachmentEntity attchment)
+
+        public AttachmentDTO ToDTO(AttachmentEntity attachment)
         {
             AttachmentDTO dto = new AttachmentDTO();
-            dto.CreateDateTime = attchment.CreateDateTime;
-            dto.IconName = attchment.IconName;
-            dto.Id = attchment.Id;
-            dto.Name = attchment.Name;
+            dto.CreateDateTime = attachment.CreateDateTime;
+            dto.IconName = attachment.IconName;
+            dto.Id = attachment.Id;
+            dto.Name = attachment.Name;
             return dto;
         }
         public AttachmentDTO[] GetAll()
@@ -26,30 +28,27 @@ namespace ZF.Service
             using (MyDbContext ctx = new MyDbContext())
             {
                 BaseService<AttachmentEntity> bs = new BaseService<AttachmentEntity>(ctx);
-                var all =bs.GetAll().AsNoTracking();
-                return all.ToList().Select(e => ToDTO(e)).ToArray();
+               var attachments= bs.GetAll().AsNoTracking();
+                return attachments.ToList().Select(e => ToDTO(e)).ToArray();
             }
 
-           
+              
         }
 
         public AttachmentDTO[] GetAttachments(long houseId)
         {
             using (MyDbContext ctx = new MyDbContext())
             {
-                //取出houseId这个房屋的Attachments
-                BaseService<HouseEntity> houseBS
-                    = new BaseService<HouseEntity>(ctx);
-                var house = houseBS.GetAll().Include(a => a.Attachments)
-                    .AsNoTracking().SingleOrDefault(h => h.Id == houseId);
+                BaseService<HouseEntity> bs = new BaseService<HouseEntity>(ctx);
+                var house = bs.GetAll().AsNoTracking().Include(e => e.Attachments)
+                      .SingleOrDefault(e => e.Id == houseId);
                 if (house == null)
                 {
-                    throw new ArgumentException("houseId" + houseId + "不存在");
+                    throw new ArgumentException("没有找到id=" + houseId + "的房子");
                 }
-                return house.Attachments.ToList().Select(a => ToDTO(a)).ToArray();
+                return house.Attachments.ToList().Select(e => ToDTO(e)).ToArray();
             }
 
-            
         }
     }
 }

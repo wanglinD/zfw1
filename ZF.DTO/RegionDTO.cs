@@ -10,6 +10,7 @@ namespace ZF.DTO
     {
         public string Name { get; set; }
         public long CityId { get; set; }
-        
+        public string CityName { get; set;}
+
     }
 }
